@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MXGoogleAnalytics"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "A wrapper for using Google Analytics SDK."
   s.description      = <<-DESC
     This wrapper was created by Henrique Morbin (http://fb.com/hgmorbin). It was created to be a wrapper when you are using the Google Analytics SDK.
