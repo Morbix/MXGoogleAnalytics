@@ -7,12 +7,18 @@
 //
 
 #import "MXAppDelegate.h"
+#import "MXGoogleAnalytics.h"
 
 @implementation MXAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [MXGoogleAnalytics ga_inicializeWithTrackingId:@"UA-53667401-1"];
+    [MXGoogleAnalytics ga_trackApplicationLauchingWithOptions:launchOptions];
+    [MXGoogleAnalytics ga_allowIDFACollection:YES];
+    
     return YES;
 }
 							

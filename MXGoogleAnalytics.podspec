@@ -9,30 +9,26 @@
 
 Pod::Spec.new do |s|
   s.name             = "MXGoogleAnalytics"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of MXGoogleAnalytics."
+  s.version          = "1.0.0"
+  s.summary          = "A wrapper for using Google Analytics SDK."
   s.description      = <<-DESC
-                       An optional longer description of MXGoogleAnalytics
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+    This wrapper was created by Henrique Morbin (http://fb.com/hgmorbin). It was created to be a wrapper when you are using the Google Analytics SDK.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/MXGoogleAnalytics"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/Morbix/MXGoogleAnalytics"
   s.license          = 'MIT'
   s.author           = { "Henrique Morbin" => "morbin_@hotmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/MXGoogleAnalytics.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/Morbix/MXGoogleAnalytics.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://facebook.com/hgmorbin'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes'
+  s.source_files = 'MXGoogleAnalytics/*.{h,m}'
   s.resource_bundles = {
     'MXGoogleAnalytics' => ['Pod/Assets/*.png']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit', 'MapKit'
+  s.dependency 'GoogleAnalytics-iOS-SDK', '~> 3.10'
 end
