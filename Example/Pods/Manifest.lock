@@ -2,7 +2,7 @@ PODS:
   - GoogleAnalytics-iOS-SDK (3.10):
     - GoogleAnalytics-iOS-SDK/Core
   - GoogleAnalytics-iOS-SDK/Core (3.10)
-  - MXGoogleAnalytics (1.0.0):
+  - MXGoogleAnalytics (1.0.1):
     - GoogleAnalytics-iOS-SDK (~> 3.10)
 
 DEPENDENCIES:
@@ -14,6 +14,6 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   GoogleAnalytics-iOS-SDK: f422062075d9ccb1ea8d783fc5ba3829461e9502
-  MXGoogleAnalytics: f79d5026cfe34a2b8b026f601b03af39d73c2ec4
+  MXGoogleAnalytics: 3caf11bbecca66cd41bc8d8dadb5395a6a8977e2
 
 COCOAPODS: 0.34.4

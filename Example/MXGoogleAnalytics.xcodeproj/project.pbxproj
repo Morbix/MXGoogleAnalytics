@@ -23,7 +23,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		85F5D014A54312CC2AD4C684 /* libPods-MXGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECBC84EA547ED6A259E6483 /* libPods-MXGoogleAnalytics.a */; };
-		A76FAE211A3693A200B64B96 /* MXGoogleAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = A76FAE201A3693A200B64B96 /* MXGoogleAnalytics.m */; };
 		FDDEDC42B93914AEED7CE74E /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 256F82247360E764DB8DCEA5 /* libPods-Tests.a */; };
 /* End PBXBuildFile section */
 
@@ -67,8 +66,6 @@
 		868A44210988CECE4780799D /* MXGoogleAnalytics.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MXGoogleAnalytics.podspec; path = ../MXGoogleAnalytics.podspec; sourceTree = "<group>"; };
 		9A0FB3F6739BD289B1839005 /* Pods-MXGoogleAnalytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXGoogleAnalytics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MXGoogleAnalytics/Pods-MXGoogleAnalytics.debug.xcconfig"; sourceTree = "<group>"; };
 		9ECBC84EA547ED6A259E6483 /* libPods-MXGoogleAnalytics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MXGoogleAnalytics.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A76FAE1F1A3693A200B64B96 /* MXGoogleAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXGoogleAnalytics.h; sourceTree = "<group>"; };
-		A76FAE201A3693A200B64B96 /* MXGoogleAnalytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXGoogleAnalytics.m; sourceTree = "<group>"; };
 		D9D76698DFDA1A26D4E82B90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -152,7 +149,6 @@
 				6003F5A2195388D20070C39A /* Main_iPad.storyboard */,
 				6003F5A5195388D20070C39A /* MXViewController.h */,
 				6003F5A6195388D20070C39A /* MXViewController.m */,
-				A76FAE1B1A3692D400B64B96 /* MXGoogleAnalytics */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -197,16 +193,6 @@
 				75A89042B071F04077C57BA8 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		A76FAE1B1A3692D400B64B96 /* MXGoogleAnalytics */ = {
-			isa = PBXGroup;
-			children = (
-				A76FAE1F1A3693A200B64B96 /* MXGoogleAnalytics.h */,
-				A76FAE201A3693A200B64B96 /* MXGoogleAnalytics.m */,
-			);
-			name = MXGoogleAnalytics;
-			path = ../../MXGoogleAnalytics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -375,7 +361,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A76FAE211A3693A200B64B96 /* MXGoogleAnalytics.m in Sources */,
 				6003F59E195388D20070C39A /* MXAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* MXViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

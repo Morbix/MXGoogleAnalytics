@@ -22,5 +22,5 @@
 #define COCOAPODS_POD_AVAILABLE_MXGoogleAnalytics
 #define COCOAPODS_VERSION_MAJOR_MXGoogleAnalytics 1
 #define COCOAPODS_VERSION_MINOR_MXGoogleAnalytics 0
-#define COCOAPODS_VERSION_PATCH_MXGoogleAnalytics 0
+#define COCOAPODS_VERSION_PATCH_MXGoogleAnalytics 1
 

@@ -7,7 +7,6 @@
 //
 
 #import "MXAppDelegate.h"
-#import "MXGoogleAnalytics.h"
 
 @implementation MXAppDelegate
 
