@@ -15,7 +15,7 @@
 {
     // Override point for customization after application launch.
     
-    [MXGoogleAnalytics ga_inicializeWithTrackingId:@"UA-53667401-1"];
+    [MXGoogleAnalytics ga_inicializeWithTrackingId:<#Google Analytics ID#>];
     [MXGoogleAnalytics ga_trackApplicationLauchingWithOptions:launchOptions];
     [MXGoogleAnalytics ga_allowIDFACollection:YES];
     
